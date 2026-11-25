@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff6b35"/>
+      <stop offset="55%" stop-color="#ff3d68"/>
+      <stop offset="100%" stop-color="#6b2cf5"/>
+    </linearGradient>
+    <linearGradient id="cat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff8ef"/>
+      <stop offset="100%" stop-color="#ffd5a8"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="256" cy="264" r="175" fill="#ffffff" fill-opacity="0.16"/>
+  <!-- Ears -->
+  <polygon points="135,215 162,102 232,175" fill="url(#cat)" stroke="#2b173f" stroke-width="14" stroke-linejoin="round"/>
+  <polygon points="377,215 350,102 280,175" fill="url(#cat)" stroke="#2b173f" stroke-width="14" stroke-linejoin="round"/>
+  <polygon points="155,196 171,126 216,174" fill="#ff8fab"/>
+  <polygon points="357,196 341,126 296,174" fill="#ff8fab"/>
+  <!-- Head -->
+  <ellipse cx="256" cy="272" rx="136" ry="118" fill="url(#cat)" stroke="#2b173f" stroke-width="14"/>
+  <!-- Forehead stripes -->
+  <path d="M256 158 L256 198 M224 166 L232 198 M288 166 L280 198" stroke="#f58b38" stroke-width="12" stroke-linecap="round"/>
+  <!-- Eyes (Van heterochromia!) -->
+  <circle cx="204" cy="266" r="24" fill="#18a4ff"/>
+  <circle cx="308" cy="266" r="24" fill="#ff9f1c"/>
+  <ellipse cx="204" cy="266" rx="9" ry="16" fill="#1b1026"/>
+  <ellipse cx="308" cy="266" rx="9" ry="16" fill="#1b1026"/>
+  <circle cx="211" cy="257" r="6" fill="#fff"/>
+  <circle cx="315" cy="257" r="6" fill="#fff"/>
+  <!-- Nose & Mouth -->
+  <polygon points="244,296 268,296 256,312" fill="#ff5d8f"/>
+  <path d="M256 312 Q242 332 226 322 M256 312 Q270 332 286 322" fill="none" stroke="#2b173f" stroke-width="10" stroke-linecap="round"/>
+  <!-- Nazar amulet -->
+  <circle cx="256" cy="398" r="28" fill="#0d47a1" stroke="#fff" stroke-width="6"/>
+  <circle cx="256" cy="398" r="17" fill="#ffffff"/>
+  <circle cx="256" cy="398" r="10" fill="#29b6f6"/>
+  <circle cx="256" cy="398" r="5" fill="#0d1b2a"/>
+</svg>
